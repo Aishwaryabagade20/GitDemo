@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-05T23:10:48 IST" name="Default suite" finished-at="2023-01-05T23:10:49 IST" duration-ms="46">
+  <suite started-at="2023-01-06T00:32:21 IST" name="Default suite" finished-at="2023-01-06T00:32:21 IST" duration-ms="40">
     <groups>
     </groups>
-    <test started-at="2023-01-05T23:10:48 IST" name="Default test" finished-at="2023-01-05T23:10:49 IST" duration-ms="46">
-      <class name="SeleniumTest">
-        <test-method signature="BrowserAutomation()[pri:0, instance:SeleniumTest@28f2a10f]" started-at="2023-01-05T23:10:49 IST" name="BrowserAutomation" finished-at="2023-01-05T23:10:49 IST" duration-ms="8" status="PASS">
+    <test started-at="2023-01-06T00:32:21 IST" name="Default test" finished-at="2023-01-06T00:32:21 IST" duration-ms="40">
+      <class name="RESTAPITest">
+        <test-method signature="deleteTwitter()[pri:0, instance:RESTAPITest@28f2a10f]" started-at="2023-01-06T00:32:21 IST" name="deleteTwitter" finished-at="2023-01-06T00:32:21 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BrowserAutomation -->
-        <test-method signature="emelemtUi()[pri:0, instance:SeleniumTest@28f2a10f]" started-at="2023-01-05T23:10:49 IST" name="emelemtUi" finished-at="2023-01-05T23:10:49 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- deleteTwitter -->
+        <test-method signature="postJira()[pri:0, instance:RESTAPITest@28f2a10f]" started-at="2023-01-06T00:32:21 IST" name="postJira" finished-at="2023-01-06T00:32:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- emelemtUi -->
-      </class> <!-- SeleniumTest -->
+        </test-method> <!-- postJira -->
+      </class> <!-- RESTAPITest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

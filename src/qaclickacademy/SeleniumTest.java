@@ -1,3 +1,4 @@
+package qaclickacademy;
 import org.testng.annotations.Test;
 
 public class SeleniumTest {
@@ -7,6 +8,8 @@ public class SeleniumTest {
 			
 			System.out.println("Browser Automation");
 			
+			
+			System.out.println("Web Automation");
 		}
 		
 		@Test
@@ -15,4 +18,9 @@ public class SeleniumTest {
 			System.out.println("elementUi");
 		}
 
+		@Test
+		public void emelemtUi123() {
+			
+			System.out.println("elementUi123");
+		}
 }
